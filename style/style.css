@@ -109,40 +109,7 @@ nav ul a:hover{
 
 }
 /*end navbar*/
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    user-select: none;
-  }
-
-  .dropdown-display {
-    padding: 10px;
-    width: 60px;
-    background-color: var(--background-color);
-  }
-
-  .dropdown-options {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    border-top: none;
-    background-color: var(--background-color);
-    z-index: 1;
-  }
-
-  .dropdown-options p {
-    margin: 0;
-    padding: 14px;
-    cursor: pointer;
-  }
-
-  .dropdown-options p:hover {
-    transition: 0.3s ease-in;
-    background-color: var(--hover-color);
-  }
+ 
 .logo-item {
   display: inline-flex;
   align-items: center;
