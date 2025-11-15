@@ -20,8 +20,9 @@ body{
     background-color: var(--background-color);
 }
 main{
-    width: 40vw;
-    margin: 0px auto;
+    max-width: 600px;
+    width: 93%;
+    margin: 0 auto;
     
 }
 .Portfolio{
@@ -75,8 +76,9 @@ main{
 }
 /*navbar*/
 nav{
-    width: 70vw;
-    margin: 0px auto;
+    max-width: 900px;
+    width: 93%;
+    margin: 0 auto;
     color: var(--text-color);
 }
 
@@ -202,8 +204,9 @@ nav ul a:hover{
 
 /*start footer*/
 footer{
-    width: 50vw;
-    margin: 0px auto;
+    max-width: 900px;
+    width: 93%;
+    margin: 0 auto;
     color: var(--text-color);
     text-align: center;
     padding: 8px 0 8px 0;
