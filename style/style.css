@@ -10,10 +10,10 @@
     
 }
 html{
-    scroll-behavior: smooth; /*scrollup smooth*/
+    scroll-behavior: smooth; /*jk ze scrollup smooth*/
     opacity: 0;
     transform: translateY(20px); /*how far goes down before up*/
-    animation: fadeInUp 1s ease-out forwards;/*fading*/
+    animation: fadeInUp 1s ease-out forwards;/*de fading effect je weet wel*/
 }
 body{
     font-family: "Arimo";
@@ -74,7 +74,6 @@ main{
 .name{
     font-size: 30px;
 }
-/*navbar*/
 nav{
     max-width: 900px;
     width: 93%;
@@ -108,7 +107,6 @@ nav ul a:hover{
     transition: 0.2s ease-in;
 
 }
-/*end navbar*/
  
 .logo-item {
   display: inline-flex;
@@ -165,11 +163,10 @@ nav ul a:hover{
 }
 
 .logos-slide img {
-  height: 30px; /*logosize*/
+  height: 30px; /*hoe groot logo kan zn*/
   margin: 0 40px;
 }
 
-/*start footer*/
 footer{
     max-width: 900px;
     width: 93%;
@@ -181,8 +178,7 @@ footer{
     border-top: 2px solid var(--secondary-color);
 
 }
-/*end footer*/
-/*fading animation start*/
+
 .intro {
   opacity: 0;
   transform: translateY(20px);
@@ -195,7 +191,6 @@ footer{
     transform: translateY(0);
   }
 }
-/*fading animation end*/
 @keyframes slide {
   from {
     transform: translateX(0);
