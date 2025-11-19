@@ -214,27 +214,6 @@
       <p>Licensed under the <a href="https://raw.githubusercontent.com/Scryv/portfoliosite-scryv/refs/heads/main/LICENSE" target="_blank">MIT License</a></p>
    </footer>
     </div>
-    <script>
-  const dropdown = document.getElementById('myDropdown');
-  const display = document.getElementById('dropdownDisplay');
-  const options = document.getElementById('dropdownOptions');
 
-  display.addEventListener('click', () => {
-    options.style.display = options.style.display === 'block' ? 'none' : 'block';
-  });
-
-  options.querySelectorAll('p').forEach(option => {
-    option.addEventListener('click', () => {
-      display.textContent = option.textContent;
-      options.style.display = 'none';
-    });
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!dropdown.contains(e.target)) {
-      options.style.display = 'none';
-    }
-  });
-</script>
 </bottom>
 </html>
