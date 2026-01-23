@@ -1,251 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Portfolio | S.D.G</title>
-</head>
-<body>
-<nav>
-    <ul>
-        <li class="left"><h2>Seppe D.G.</h2></li>
-        <li class="center">
-            <a href="#About">About</a>
-            <a href="#Portfolio">Projects</a>
-            <a href="#">Contact Me</a>
-        </li>
-    </ul>
-</nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/style.css" />
 
-<main>
-    <br><br>
-    <div class="Introduction" id="About">
-        <span class="name"><strong>Seppe D.G.</strong></span> <span class="social-links"><a href="https://github.com/scryv" target="_blank"><i id="he" class="bi bi-github"></i></a> &nbsp;&nbsp;<a onclick="alert('@sudoscryv')"><i id="he" class="bi bi-discord"></i></a> </span>
-        <p class="location"><i class="bi bi-geo"></i>Gent, Belgium</p>
-        <p>
-        Im a 16 year old Web/low Level programming dev. 
-        i have been programming for 3 years and im a unix enthousiast.
-        </p>
-    </div>
-    <br>
-    <br>
-    <div class="Wiu">
-     <h2>What i work with</h2>
-     <div class="logos">
-      <div class="logos-slide">
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_c.png" />
-           <span>C</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_python.png" />
-           <span>Python</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_html5.png" />
-           <span>Html</span>
+        <title>Portfolio | S.D.G</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="left"><h2>Seppe D.G.</h2></li>
+                <li class="center">
+                    <a href="#About">About</a>
+                    <a href="#Portfolio">Projects</a>
+                    <a href="#">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
 
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_css.png" />
-           <span>Css</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_javascript.png" />
-           <span>JavaScript</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_php.png" />
-           <span>PHP</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_wordpress.png" />
-           <span>WordPress</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_nodedotjs.png" />
-           <span>Node.js</span>
-        </div>
-                <div class="logo-item">
-        <img src="./images/svgs/adobe.png" />
-        <span>Adobe</span>
-        </div>
-      </div>
+        <main>
+            <br /><br />
+            <div class="Introduction" id="About">
+                <span class="name"><strong>Seppe D.G.</strong></span>
+                <span class="social-links"
+                    ><a href="https://github.com/scryv" target="_blank"
+                        ><i id="he" class="bi bi-github"></i
+                    ></a>
+                    &nbsp;&nbsp;<a onclick="alert('@sudoscryv')"
+                        ><i id="he" class="bi bi-discord"></i
+                    ></a>
+                </span>
+                <p class="location"><i class="bi bi-geo"></i>Gent, Belgium</p>
+                <p>
+                    Im a 16 year old Web/low Level programming dev. i have been
+                    programming for 3 years and im a unix enthousiast.
+                </p>
+                <div class="rpc-pill">
+                  <span class="rpc-dot" id="rpcDot" style="width:12px; height:12px; border-radius:50%; display:inline-block;"></span>
+                  <span class="rpc-status-text" id="rpcStatusText">Connecting…</span>
+                </div>
+                <br>
+                <div id="spotify" class="hidden">
+                    <img id="cover" />
+                    <div class="info">
+                        <div id="song"></div>
+                        <div id="artist"></div>
+                        <div class="bar">
+                            <div id="progress"></div>
+                        </div>
+                    </div>
+                    
+                </div>
 
-      <div class="logos-slide">
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_c.png" />
-           <span>C</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_python.png" />
-           <span>Python</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_html5.png" />
-           <span>Html</span>
+                <div id="fallback">No activity</div>
+                <script src="main.js"></script>
+            </div>
+            <br />
+            <br />
 
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_Pi7_css.png" />
-           <span>Css</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_Pi7_javascript.png" />
-           <span>JavaScript</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_Pi7_php.png" />
-           <span>PHP</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_Pi7_wordpress.png" />
-           <span>WordPress</span>
-        </div>
-        <div class="logo-item">
-           <img src="./images/svgs/Pi7_nodedotjs.png" />
-           <span>Node.js</span>
-        </div>
-                <div class="logo-item">
-        <img src="./images/svgs/adobe.png" />
-        <span>Adobe</span>
-        </div>
-        
-      </div>
-    </div>
-     <div class="logos">
-      <div class="logos-slide">
-        <div class="logo-item">
-        <img src="./images/svgs/linux.png" />
-        <span>Linux</span>
-        </div>
-         <div class="logo-item">
-        <img src="./images/svgs/quickshell.png" />
-        <span>QuickShell</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_gtk.png" />
-        <span>Gtk</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_git.png" />
-        <span>Git</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/docker.svg" />
-        <span>Docker</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_archlinux.png" />
-        <span>Arch</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_apache.png" />
-        <span>Apache</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_mysql.png" />
-        <span>MySQL</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_rust1.png" />
-        <span>Rust</span>
-        </div>
+            <h2 id="Portfolio">Projects</h2>
+            <a
+                href="https://github.com/Scryv/NiriDotfiles-Monochrome"
+                class="project-card-link"
+            >
+                <div class="project-card">
+                    <img
+                        src="./images/images/riceNiri.png"
+                        alt="Niri"
+                        class="project-img"
+                    />
 
-      </div>
+                    <h3 class="project-title">Niri Rice</h3>
 
-      <div class="logos-slide">
-        <div class="logo-item">
-        <img src="./images/svgs/linux.png" />
-        <span>Linux</span>
-        </div>
-         <div class="logo-item">
-        <img src="./images/svgs/quickshell.png" />
-        <span>QuickShell</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_gtk.png" />
-        <span>Gtk</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_git.png" />
-        <span>Git</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/docker.svg" />
-        <span>Docker</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_archlinux.png" />
-        <span>Arch</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_apache.png" />
-        <span>Apache</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_mysql.png" />
-        <span>MySQL</span>
-        </div>
-        <div class="logo-item">
-        <img src="./images/svgs/Pi7_rust1.png" />
-        <span>Rust</span>
-        </div>
-      </div>
-    </div>
-    </div>
+                    <div class="project-tags">
+                        <span>Lua</span>
+                        <span>Css</span>
+                        <span>Bash</span>
+                    </div>
 
-    <h2 id="Portfolio">Projects</h2>
-    <a href="https://github.com/Scryv/NiriDotfiles-Monochrome" class="project-card-link">
+                    <p class="project-desc">
+                        Rice made for Niri Wayland compositor/window manager.
+                    </p>
+                </div>
+            </a>
 
-    <div class="project-card" >
-    <img src="./images/images/riceNiri.png" alt="Niri" class="project-img">
+            <a
+                href="https://scryv.github.io/VoidLinuxSite-Remake/"
+                class="project-card-link"
+                target="_blank"
+            >
+                <div class="project-card">
+                    <img
+                        src="./images/images/WebsiteVoid.png"
+                        alt="Niri"
+                        class="project-img"
+                    />
 
-    <h3 class="project-title">Niri Rice</h3>
+                    <h3 class="project-title">Void Linux (Remake)</h3>
 
-    <div class="project-tags">
-        <span>Lua</span>
-        <span>Css</span>
-        <span>Bash</span>
-    </div>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
 
-    <p class="project-desc">
-        Rice made for Niri Wayland compositor/window manager.
-    </p>
-</div>
-</a>
-    
-    <a href="https://scryv.github.io/VoidLinuxSite-Remake/" class="project-card-link" target="_blank">
-
-    <div class="project-card" >
-    <img src="./images/images/WebsiteVoid.png" alt="Niri" class="project-img">
-
-    <h3 class="project-title">Void Linux (Remake)</h3>
-
-    <div class="project-tags">
-        <span>HTML</span>
-        <span>CSS</span>
-    </div>
-
-    <p class="project-desc">
-        This is a revamp page of the original Void Linux website.
-    </p>
-</div>
-</a>
-
-
-    
-  
-</main>
+                    <p class="project-desc">
+                        This is a revamp page of the original Void Linux
+                        website.
+                    </p>
+                </div>
+            </a>
+        </main>
         <div class="site-footer">
-    <br><br>
-    <footer>
-      <p>&copy; made by Seppe D.G. (Scryv)</p>
-      <p>Licensed under the <a href="https://raw.githubusercontent.com/Scryv/portfoliosite-scryv/refs/heads/main/LICENSE" target="_blank">MIT License</a></p>
-   </footer>
-    </div>
-</body>
-
-
+            <br /><br />
+            <footer>
+                <p>&copy; made by Seppe D.G. (Scryv)</p>
+                <p>
+                    Licensed under the
+                    <a
+                        href="https://raw.githubusercontent.com/Scryv/portfoliosite-scryv/refs/heads/main/LICENSE"
+                        target="_blank"
+                        >MIT License</a
+                    >
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>
