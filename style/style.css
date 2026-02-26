@@ -35,7 +35,20 @@ main {
 .Wiu {
     color: var(--text-color);
 }
-.Introduction {
+.secPart{
+    display: flex;
+    gap: 20px;
+    max-width: 700px;
+}
+.twoCard{
+    flex: 1;
+    color: var(--text-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 6px;
+    padding: 15px;
+    background-color: rgba(60, 60, 60, 0.193);
+}
+.infoIntro {
     color: var(--text-color);
     border: 1px solid var(--secondary-color);
     border-radius: 6px;
@@ -71,6 +84,9 @@ main {
 
 .name {
     font-size: 30px;
+}
+.nameTitle {
+    font-size: 20px;
 }
 nav {
     max-width: 900px;
@@ -306,4 +322,9 @@ footer {
     height: 100%;
     width: 0%;
     background: #1db954;
+}
+@media (max-width: 700px ) {
+    .secPart {
+        flex-direction: column;
+    }
 }
