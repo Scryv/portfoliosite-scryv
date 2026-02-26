@@ -26,6 +26,10 @@ main {
     width: 93%;
     margin: 0 auto;
 }
+.badge{
+    font-size: 13px;
+}
+
 .Portfolio {
     max-width: 800px;
 }
@@ -327,4 +331,9 @@ footer {
     .secPart {
         flex-direction: column;
     }
+}
+.skills-pills {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 0.75rem;
 }
